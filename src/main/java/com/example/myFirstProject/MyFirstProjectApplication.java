@@ -22,7 +22,4 @@ public class MyFirstProjectApplication implements CommandLineRunner{
 		String payment = paymentService.pay();
 		System.out.println("Payment done : "+payment);
 	}
-
-
-
 }
